@@ -18,11 +18,35 @@ let champions = {
         'cost': 3,
         'ability': 'Prismatic Storm'
     },
-    'Ao Shin': {
+    'aoshin': {
         'origin': 'Tempest',
         'class': 'Dragon',
         'cost': 10,
         'ability': 'Lightning Rain'
+    },
+    'ashe': {
+        'origin': 'Jade',
+        'class': 'Dragonmancer, Swiftshot',
+        'cost': 2,
+        'ability': 'Volley'
+    },
+    'aurelionsol': {
+        'origin': 'Astral',
+        'class': 'Dragon, Evoker',
+        'cost': 10,
+        'ability': 'Black hole'
+    },
+    'bard': {
+        'origin': 'Guild',
+        'class': 'Bard, Mystic',
+        'cost': 5,
+        'ability': 'Tempered Fate'
+    },
+    'braum': {
+        'origin': 'Scalescorn',
+        'class': 'Guardian',
+        'cost': 2,
+        'ability': 'Unbreakable'
     },
     'unknown': {
         'origin': 'unknown',
@@ -37,7 +61,7 @@ app.get('/', (request, response) => {
     console.log('Just hit!')
 })
 
-app.get('/api/:name', (request, response) => {
+app.get('/champs/:name', (request, response) => {
     const championName = request.params.name.toLowerCase()
     if(champions[championName]){
         response.json(champions[championName])
