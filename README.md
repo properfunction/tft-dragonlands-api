@@ -13,5 +13,4 @@ Utilised Express to create a TFT champion data API via Node.JS
 ## Optimizations
 
 Added CORS dependancy.
-Will utilise MongoDB for storing full collection of champions.
 Changed value to lowercase improving champion matches.
