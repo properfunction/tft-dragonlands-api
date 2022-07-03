@@ -16,4 +16,4 @@ Added CORS dependancy.
 Changed value to lowercase improving champion matches.
 Provided example URL on landing page
 
-Slam sunfire cape!
+If you're not first you're last!
