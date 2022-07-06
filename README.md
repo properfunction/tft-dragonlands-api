@@ -12,7 +12,7 @@ Utilised Express to create a TFT champion data API via Node.JS
 
 ## Optimizations
 
-Added CORS dependancy.
+Added CORS dependancy
 Changed value to lowercase improving champion matches.
 Provided example URL on landing page
 
