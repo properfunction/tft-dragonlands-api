@@ -10,7 +10,7 @@ Unofficial api for TFT set 7 Dragonlands
 
 Utilised Express to create a TFT champion data API via Node.JS
 
-## Optimizations
+## Optimizations:
 
 Added CORS dependancy
 Changed value to lowercase improving champion matches
