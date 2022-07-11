@@ -16,4 +16,3 @@ Added CORS dependancy
 Changed value to lowercase improving champion matches
 Provided example URL on landing page
 
-Just hit!
