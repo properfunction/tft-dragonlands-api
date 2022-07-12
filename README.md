@@ -1,6 +1,6 @@
 # tft-dragonlands-api
 
-Unofficial api for TFT set 7 Dragonlands
+Unofficial api for TFT set 7 Dragonlands!
 
 ![alt tag](http://placecorgi.com/1200/650)
 
