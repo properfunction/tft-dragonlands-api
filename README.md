@@ -1,6 +1,6 @@
 # tft-dragonlands-api
 
-Unofficial api for TFT set 7 Dragonlands!
+Unofficial api for TFT set 7 Dragonlands
 
 ![alt tag](http://placecorgi.com/1200/650)
 
@@ -15,4 +15,6 @@ Utilised Express to create a TFT champion data API via Node.JS
 Added CORS dependancy
 Changed value to lowercase improving champion matches
 Provided example URL on landing page
+
+.
 
